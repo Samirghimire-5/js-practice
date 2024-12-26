@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>calculator</title>
+
+        <style>
+            .clear {
+                width: 100px;
+            }
+        </style>
+    </head>
+    <body>
+        
+        <h1>CALCULATOR</h1>
+        
+        <p>
+            <button onclick="
+                updatedCalculation('1');
+                ">1</button>
+
+            <button onclick="
+                updatedCalculation('2');
+                ">2</button>
+
+            <button onclick="
+                updatedCalculation('3');
+                ">3</button>
+
+            <button onclick="
+                updatedCalculation('+');
+                ">+</button>
+        </p>
+
+        <p>
+            <button onclick="
+                updatedCalculation('4');
+                ">4</button>
+
+            <button onclick="
+                updatedCalculation('5');
+                ">5</button>
+
+            <button onclick="
+                updatedCalculation('6');
+                ">6</button>
+
+            <button onclick="
+                updatedCalculation('-');
+                ">-</button>
+        </p>
+
+        <p>
+            <button onclick="
+                updatedCalculation('7');
+                ">7</button>
+
+            <button onclick="
+                updatedCalculation('8');
+                ">8</button>
+
+            <button onclick="
+                updatedCalculation('9');
+                ">9</button>
+
+            <button onclick="
+                updatedCalculation('*');
+                ">*</button>
+        </p>
+
+        <p>
+            <button onclick="
+                updatedCalculation('.');
+                 ">.</button>
+
+            <button onclick="
+                updatedCalculation('/');
+                ">/</button>
+
+            <button onclick="
+                updatedCalculation('0');
+                ">0</button>
+
+            <button onclick="
+                const result = eval(calculation);
+                console.log(result);
+                ">=</button>
+        </p>
+
+        <p>
+            <button class="clear"; onclick=" 
+                console.log('Cleared');
+                (calculation = '');
+                ">Clear</button>
+        </p>
+
+
+
+        <script>
+                let calculation = '';
+
+            function updatedCalculation(value) {
+                calculation += value;
+                console.log(calculation)
+            }
+        </script>
+    </body>
+</html>
