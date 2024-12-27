@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Guess The Number</title>
+
+        <style>
+            #guessNum {
+                width: 60px;
+                margin-left: 5px;
+            }
+
+            .resultDiv {
+                display: grid;
+                align-items: center;
+                justify-content: center;
+            }
+
+            .guessButton {
+                width: 80px;
+                margin-top: 10px;
+            }
+
+            .guessButton:hover {
+                background-color: lightblue;
+                transition: 0.4s;
+                box-shadow: 4px 4px 9px red, 4px 4px 9px green;
+            }
+            
+        </style>
+
+        <script>
+            var randomNum = Math.floor(Math.random() * 100 + 1);
+            // console.log(randomNum);
+
+            function compare() {
+                let userInput = document.getElementById("guessNum");
+                const inputValue = userInput.value;
+
+                if (inputValue <= 0) {
+                    alert('Number should not be less or equals to 0');
+                } else if (inputValue > randomNum) {
+                   alert('guess lower');
+                } else if (inputValue < randomNum) {
+                    alert('guess higher');
+                }else {
+                    alert('right answer')
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <h1 style="display: grid; justify-content: center;">GUESS THE NUMBER</h1>
+        <h6 style="display: grid; justify-content: center;">Enter Number Between 1 And 100!</h6>
+
+        <div class="resultDiv">
+            <input id="guessNum" type="number">
+
+            <button class="guessButton" onclick="
+                compare();
+            ">GUESS</button>
+        </div>
+       
+
+    </body>
+</html>
