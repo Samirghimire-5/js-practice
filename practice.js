@@ -71,3 +71,43 @@
 // for (const keys in film) {
 //     console.log(`${keys} is ${film[keys]}`);
 // }
+
+
+// sum of all elements in an array.
+// let arr = [10, 39, 55, 88];
+// let sum = 0;
+
+// for (let i = 0; i < arr.length; i++) {
+//     sum += arr[i];
+// }
+// console.log(sum);
+
+
+//  function that returns the sum of all elements in an array.
+// function sumOfArray(arr) {
+//     let sum = 0;
+    
+//     for (let i = 0; i < arr.length; i++) {
+//         sum += arr[i];
+//     }
+//     console.log(sum)
+// }
+// sumOfArray([10, 39, 55, 88]);
+
+
+// function maximumValue(arr) {
+    // method 1
+    // let max = 0;
+    // for (let i = 0; i < arr.length; i++) {
+    //     if (arr[i] > max) {
+    //         max = arr[i];
+    //     }
+    // }
+    // console.log(max)
+
+    // Method 2
+    // let max = Math.max(...arr);
+    // console.log(max)
+// }
+// maximumValue([10, 39, 55, 88])
+
