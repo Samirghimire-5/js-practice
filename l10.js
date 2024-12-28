@@ -1,30 +1,31 @@
 // Optional Chaning :
 
-const userDetails = {
-    hari: {
-     ielts:{
-         '12 /2/2020': 32
-     }
-    },
-    shyam: {
-     pte: {
-         '12/2/2020':34
-     }
-    }
- }
+// const userDetails = {
+//     hari: {
+//      ielts:{
+//          '12 /2/2020': 32
+//      }
+//     },
+//     shyam: {
+//      pte: {
+//          '12/2/2020':34
+//      }
+//     }
+//  }
 
  // 1: log 32
 // console.log(userDetails.hari.ielts['12/2/2020']) ;
 
 
 
-// 2 : optionally chain the following
+// 2 : optionally chain the following 
 // console.log(userDetails.shyam.itels.12/12/2020)
 
+// answer=>
 // console.log(userDetails.shyam.itels?.['12/12/2020'])
 
 
-
+// 3 : ---
 const technical_A = {
     math: 32,
     science: 40
@@ -35,7 +36,7 @@ const technical_B = {
     gk: 30
 }
 
-//Q1 output should be {
+// Q 3.1: output should be {
 //     math: 32,
 //     science: 40,
 //     computer: 40,
@@ -43,7 +44,7 @@ const technical_B = {
 // }
 
 const combine = {...technical_A, ...technical_B}
-console.log(combine)
+// console.log(combine)
 
 
 
@@ -52,7 +53,8 @@ const practical_B = {
     gk:20
 }
 
-//Q1 output should be {
+// Q 3.2: --- 
+//  output should be {
 //      math: 32,
 //      science: 40,
 //      computer: 40,
@@ -60,9 +62,6 @@ const practical_B = {
 //      computer_prac: 50,
 //      gk_prac:20
 // }
-
-const cp = Object.assign({combine, practical_B})
-console.log(cp)
 
 const total = {
     ...combine,

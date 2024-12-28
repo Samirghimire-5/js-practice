@@ -111,3 +111,50 @@
 // }
 // maximumValue([10, 39, 55, 88])
 
+
+// function maximum(arr) {
+//     let max = 0;
+//     for (let i = 0; i<arr.length; i++) {
+//         if (arr[i] > max) {
+//             max = arr[i];
+//         }
+//     }
+//     console.log(max);
+// }
+
+// maximum([1, 5, 9, 2]);
+
+
+// function to reverse an array without using inbuilt function
+// Method 1;
+// function reverseArr(arr) {
+//     let reversed = [];
+//     for (let i = arr.length -1; i>=0; i--) {
+//         reversed.push(arr[i]);
+//     }
+//     console.log(reversed);
+// }
+// reverseArr([1, 5, 9, 2])
+
+// Method 2;
+// function reverseArr(arr) {
+//     let reversed = [];
+//     for (let i = 0; i < arr.length; i++) {
+//         reversed.unshift(arr[i]);
+//     }
+//     console.log(reversed);
+// }
+// reverseArr([1, 5, 9, 2]);
+
+// function to reverse an array using inbuilt function
+// function revArray(arr) {
+    // let arrReverse = arr.reverse();
+            // OR
+//     let arrReversed = arr.toReversed();
+//     console.log(arrReversed);
+// }
+// revArray([1, 5, 9, 2]);
+
+ 
+
+function removeDuplicates
