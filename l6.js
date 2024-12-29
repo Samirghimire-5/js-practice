@@ -14,17 +14,17 @@
 // console.log(password.replace('@','-'));
 
 // for the reversed string, only output 321 as a number
-// let number = parseInt(reversedPassword, 10);
+// let number = reversedPassword.slice(0,3);
 // console.log(number);
 
 
 // *console the remaining after removing first 3 char of a string
 // let nam = 'Samir Ghimire';
-// console.log(nam.substr('3', '10'));
+// console.log(nam.substr(3));
 
 // Another method
 // let nam = 'samir';
-// console.log(nam.substring('1', '2'));
+// console.log(nam.substring(1));
 
 
 // *
