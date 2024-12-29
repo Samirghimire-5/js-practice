@@ -124,6 +124,10 @@
 // *
 // If the number is even, print "Even number",
 // Otherwise, print "Odd number"
+// let num = 33;
+// num % 2 === 0 ? console.log('Even number') : console.log('Odd number');
+
+
 
 // let pl = "Javascript is fun";
 // pl.includes("Javascript") ? console.log("Javascript is found") : console.log("Javascript is not found");
@@ -154,14 +158,14 @@
 //     console.log(c, "is largest");
 //  }
 // }
-
 // largeNum(34, 67, 37);
+
 
 // *
 // Write a program to check if a given character is a vowel (a, e, i, o, u) or a consonant.
 
 // let input = 't';
-// if (input.includes('e')) {
+// if (input.includes('a','e','i','o','u')) {
 //     console.log("Vowel")
 // } else {
 //     console.log("Not a Vowel")
@@ -207,7 +211,7 @@
 //             console.log(a + b);
 //             break;
 
-//         case ('-') :s
+//         case ('-') :
 //             console.log(a - b);
 //             break;
 
