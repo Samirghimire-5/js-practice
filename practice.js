@@ -156,5 +156,17 @@
 // revArray([1, 5, 9, 2]);
 
  
+// function to remove any duplicate arrays
+// function removeDuplicates(bikes) {
+//     let noDupliArr = [...new Set(bikes)];  // the (...)spread operators converts the set into array 
+//     console.log(noDupliArr);
+// }
+// removeDuplicates(['honda', 'tvs', 'fz', 'fz', 'duke']);
 
-function removeDuplicates
+
+// function to merge two arrays and remove any duplicate elements of both arrays
+// function mergeAndRemoveDuplicates(school, collage) {
+//     let duplicateRemove = [...new Set(school, collage)];  // new Set creates a set of unique elements, so it removes duplicate elements
+//     console.log(duplicateRemove);
+// }
+// mergeAndRemoveDuplicates(['tarun M.V', 'takxishila', 'N.C.C.S'], ['peoples', 'takxishila', 'N.C.C.S']);

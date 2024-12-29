@@ -84,7 +84,7 @@
 // const {name : shine, ...others} = mybike;
 // console.log(shine);
 
-
+// made an copy of the original array [mybike] so that changes can be done in the copy array and the original array remains unchanged
 // let herosp = {...mybike}
 // herosp.disk = 'frontDisk'
 // console.log(herosp)

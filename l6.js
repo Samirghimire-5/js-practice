@@ -52,8 +52,8 @@
 //     return [...new Set(array)];
 // }
 // let bikes = ['honda', 'T.V.S', 'bajaj', 'kawasaki', 'honda'];
-// let allbikes = removeDuplicates(bikes)
-// console.log(allbikes)
+// console.log(removeDuplicates(bikes));
+
 
 
 // let bikes = ['honda', 'tvs', 'duke', 'dominar'];
