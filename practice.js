@@ -170,3 +170,13 @@
 //     console.log(duplicateRemove);
 // }
 // mergeAndRemoveDuplicates(['tarun M.V', 'takxishila', 'N.C.C.S'], ['peoples', 'takxishila', 'N.C.C.S']);
+
+// map consoles the value because it can be returned in a new array
+// let arr = [1,2,3,4];
+// let newArr = arr.map(item => item+1)
+// console.log(newArr);
+
+// it console undefined because foreach cant be returned in a new array
+// let arr = [1,2,3,4];
+// let newArr = arr.map(item => item+1)
+// console.log(newArr);
