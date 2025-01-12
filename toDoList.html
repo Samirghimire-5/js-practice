@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO DO LISTS</title>
+
+    <style>
+
+        .head{
+				border: 2px black solid;
+				border-radius: 5px;
+				text-align: center;
+				background-color: rgb(197, 192, 192);
+				width: 300px;
+				height: 45px;
+			}
+
+			.mainBody{
+				display: flex;
+				justify-content: left;
+				align-items: center;
+				border-style: solid;
+				border-radius: 5px;
+				margin-top: 2px;
+				background-color: rgb(180, 197, 212);
+				height: 80px;
+				width: 300px;
+
+			}
+
+			#inputPlace{
+				height: 40px;
+				border-radius: 8px;
+				border: 2px black solid;
+				margin: 8px;
+			}
+
+			#addButton{
+				height: 30px;
+				width: 90px;
+				border: 2px black solid;
+				background-color: rgb(198, 132, 91);
+				color: white;
+				border-radius: 8px;
+			}
+
+
+			#userDiv{
+				/* display: none; */
+				margin-top: 5px;
+			}
+
+			.userList{
+				display: flex;
+				align-items: center;
+				border: 2px black solid;
+				border-radius: 8px;
+				height: 40px;
+				width: 300px;
+			}
+
+			#checkBox{
+				width: 20px;
+				height: 30px;
+				margin-right: 8px;
+			}
+
+			#nameOfList{
+				border: 2px black solid;
+				border-radius: 8px;
+				width: 180px;
+				height: 20px;
+			}
+
+			#deleteButton{
+				margin-left: 8px;
+				border: 2px black solid;
+				border-radius: 5px;
+				background-color: rgb(198, 132, 91);
+				color: white;
+			}
+
+    </style>
+
+    <script>
+
+
+    </script>
+</head>
+<body>
+
+    <div class="head">
+        <h3>My Lists</h3>
+    </div>
+
+	 <div class="mainBody">
+		<input placeholder="Your List Name" id="inputPlace">
+		<button id="addButton">ADD</button>
+	 </div>
+
+	 <div id="userDiv">
+		<div class="userList">
+			
+		</div>
+	</div>
+    
+</body>
+</html>

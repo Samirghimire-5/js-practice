@@ -180,3 +180,90 @@
 // let arr = [1,2,3,4];
 // let newArr = arr.map(item => item+1)
 // console.log(newArr);
+
+// Q - Double each number and return a new array with the doubled values.
+// const numbers = [1, 2, 3, 4, 5];
+
+// let doubled = [];
+// numbers.forEach((item) => {
+//     doubled.push(item * 2);
+// })
+// console.log(doubled);
+// Expected Output:
+// [2, 4, 6, 8, 10]
+
+
+// Q- Given an array of names, print each name in uppercase, one by one.
+// const names = ['Alice', 'Bob', 'Charlie', 'Diana'];
+// Method 1
+// for(let i=0; i<names.length; i++) {
+//     console.log(names[i].toUpperCase())
+// }
+// Method 2
+// for (let val of names) {
+//     console.log(val.toUpperCase())
+// }
+// Method 3
+// for (let val in names) {
+//     console.log(names[val].toUpperCase())
+// }
+// Expected Output:
+// ALICE, BOB, CHARLIE, DIANA
+
+
+// Q - Count how many even numbers exist in an array.
+// const nums = [3, 5, 6, 8, 9, 10, 12];
+
+// let even = nums.filter((item) => {
+//     if (item%2 === 0) {
+//         return item;
+//     }
+// })
+// console.log(even.length);
+// Expected Output:
+// 4
+
+
+// Question 4 - Find the sum of all numbers in an array.
+// const nums = [4, 7, 1, 8, 3];
+
+// let sum = 0;
+// nums.forEach((item) => {
+//     sum = sum + item
+// })
+// console.log(sum);
+// Expected Output:
+// 23
+
+
+// Question 5 - Create a new array where each number is increased by its index in the original array.
+// const nums = [10, 20, 30, 40];
+
+// let newArr = nums.map((item, index) => {
+//     return item + index;
+// })
+// console.log(newArr);
+// Expected Output:
+// [10, 21, 32, 43]
+
+// Question 6 - You are given an array of objects representing books. Extract the titles of all books into a new array.
+// const books = [
+//   { title: 'The Hobbit', author: 'J.R.R. Tolkien' },
+//   { title: '1984', author: 'George Orwell' },
+//   { title: 'To Kill a Mockingbird', author: 'Harper Lee' }
+// ]
+// const titles = books.map((item) => {
+//     return item.title
+// })
+// console.log(titles);
+// Expected Output:
+// ['The Hobbit', '1984', 'To Kill a Mockingbird']
+
+// Question 9 - Reverse the letters of each word in an array and create a new array with the reversed words.
+// const words = ['hello', 'world', 'javascript'];
+// const reversed = words.map((item) => {
+//     return item.split('').reverse().join('');
+// })
+// console.log(reversed)
+// Expected Output:
+// ['olleh', 'dlrow', 'tpircsavaj']
